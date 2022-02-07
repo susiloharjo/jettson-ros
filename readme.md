@@ -2,7 +2,7 @@
 
 ## this is my setting for my ros project
 - Follow my project at  y blog https://kakeko.wordpress.com
-
+- binding usb port https://msadowski.github.io/linux-static-port/ (dont forget restart)
 ros distro melodic
 
 src ros_rplidar https://github.com/robopeak/rplidar_ros
