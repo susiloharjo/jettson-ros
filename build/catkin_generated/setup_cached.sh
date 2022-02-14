@@ -7,5 +7,9 @@
 # new environment variables
 
 # modified environment variables
+export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
+export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
 export PWD='/home/jetson/catkin_ws/build'
-export PYTHONPATH="/home/jetson/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export PYTHONPATH='/opt/ros/melodic/lib/python2.7/dist-packages'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/jetson/catkin_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH='/opt/ros/melodic/share:/home/jetson/catkin_ws/src'
