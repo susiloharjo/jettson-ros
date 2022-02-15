@@ -9,7 +9,7 @@
 	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
 	
 	<node name="serial_node" pkg="rosserial_python" type="serial_node.py">
-		<param name="port" value="/dev/ttyUSB0"/>
+		<param name="port" value="/dev/ttyUSB1"/>
 	</node>
 		
 	<node name="nox_controller" pkg="nox" type="nox_controller">

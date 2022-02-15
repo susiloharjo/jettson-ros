@@ -2,13 +2,13 @@ TrajectoryPlannerROS:
   # for details see: http://www.ros.org/wiki/base_local_planner
   odom_topic: odom
   
-  max_vel_x: 0.3
-  min_vel_x: 0.05
-  max_rotational_vel: 0.8   # 0.1 rad/sec = 5.7 degree/sec
-  min_in_place_rotational_vel: 0.02
-  acc_lim_th: 0.3
-  acc_lim_x: 0.05
-  acc_lim_y: 0.05
+  max_vel_x: 1
+  min_vel_x: 0.5
+  max_rotational_vel: 0.1   # 0.1 rad/sec = 5.7 degree/sec
+  min_in_place_rotational_vel: 0.4
+  acc_lim_th: 0.1
+  acc_lim_x: 0.1
+  acc_lim_y: 0.1
   holonomic_robot: false
   
   # goal tolerance parameters

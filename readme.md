@@ -14,13 +14,13 @@ ros distro melodic
 - roslaunch rplidar_ros rplidar.launch
 - roslaunch rplidar_ros view_rplidar.launch
 - roslaunch hector_slam_launch tutorial.launch
-- rosrun rosserial_python serial_node.py /dev/ttyUSB1
+- rosrun rosserial_python serial_node.py /dev/ttyUSB1 (USB Arduino port)
 - rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ]
 
 
 
-#reference
+# reference
 - https://www.youtube.com/watch?v=HLLmV9LQoac&ab_channel=JamesBruton (howto use odom using arduino mega)
 - https://github.com/RBinsonB/Nox_robot
 
